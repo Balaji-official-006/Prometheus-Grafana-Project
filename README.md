@@ -1,6 +1,6 @@
 # 📊 Task: Monitor EC2 CPU & Memory using Prometheus and Grafana
 
-Objective:
+**Objective:** 
 Set up Prometheus to collect EC2 system metrics and visualize them using Grafana dashboards.
 
 🧱 Architecture Flow (High Level)
@@ -17,13 +17,13 @@ EC2 instance (Amazon Linux 2 / Ubuntu)
 
 Ports opened in Security Group:
 
-9090 → Prometheus
+  9090 → Prometheus
 
-9100 → Node Exporter
+  9100 → Node Exporter
 
-3000 → Grafana
+  3000 → Grafana
 
-SSH access to EC2
+  SSH access to EC2
 
 🔹 Step 1: Install Node Exporter (Metric Collector)
 
